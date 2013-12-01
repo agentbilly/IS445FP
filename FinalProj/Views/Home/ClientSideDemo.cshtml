@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "ClientSideDemo";
+}
+
+@using (Html.BeginForm("FormatStringBackwards", "ClientSide"))
+{
+  <label for="inputNumber">Please Input a String</label>
+  <input type="text" name="inputString" id="inputString" value=""/>
+  <input type="submit" name="submit" value="submit" />
+}

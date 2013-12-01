@@ -1,0 +1,75 @@
+﻿#menu {
+            background-color: #DEB887;
+            color: blue;
+            text-decoration: none;
+            position: relative;
+            padding-right: 20px;
+        }
+
+        #menu span {
+            display: none;
+        }
+
+        /* I'm using <b /> tags for the submenu items, just to make the styling easier. */
+        #menu span b {
+            display: block;
+            font-weight: normal;
+        }
+
+        /* IE6 seems to require some :hover rule on the anchor element itself.
+           Without it, the '#menu:hover span' rule below is ignored. */
+        #menu:hover {
+            border: none;
+        }
+
+        #menu:hover span {
+            background-color: #C0C0C0;
+            cursor: pointer;
+            display: block;
+            position: absolute;
+            top: 1em;
+            left: 10px;
+        }
+body {width:  720px;
+      margin:auto
+}
+h1{text-align:center}
+h2 {color: blue;
+    text-align:center;
+}
+h3 {color: purple;
+    text-align:center;
+}
+hr {color: #00FF00;
+    height: 8px;
+    border-style: solid;
+    background-color: #00FF00;
+}
+p1 { text-align: left;}
+.centeredBox{
+       width: 600px;
+       min-height:300px;
+       margin:0 auto;
+}
+
+div.centeralign {
+    text-align: center;
+}
+footer {border-top:double;
+        padding-top: 5px;
+}
+footer address {display: inline-block;
+                margin:0px 20px 20px 0px;
+}
+hr {
+}
+.revypic {float: right;
+          height:200px;
+          width: 200px;
+}
+.alignleft {text-align:left;
+}
+form {border-style:solid;
+      border-color: green;
+      padding: 10px 10px 10px 10px;
+}
